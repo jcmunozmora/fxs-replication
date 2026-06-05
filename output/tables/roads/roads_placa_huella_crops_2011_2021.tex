@@ -1,0 +1,39 @@
+
+\begingroup
+\centering
+\begin{tabular}{lcccccc}
+   \tabularnewline \midrule \midrule
+   Dependent Variable: & \multicolumn{6}{c}{crops}\\
+   Rural Roads & \multicolumn{6}{c}{2} \\ 
+   Placa Huella & \multicolumn{6}{c}{2} \\ 
+   Public Goods & \multicolumn{6}{c}{2} \\ 
+   Model:                     & (1)          & (2)           & (3)            & (4)           & (5)            & (6)\\  
+   \midrule
+   \emph{Variables}\\
+   \text{FxS}                 & -0.369$^{*}$ & -0.436$^{**}$ & -0.372$^{***}$ & -0.243$^{**}$ & -0.394$^{***}$ & -0.241$^{**}$\\   
+                              & (0.198)      & (0.200)       & (0.106)        & (0.098)       & (0.105)        & (0.097)\\   
+   \text{FxS$*$Rural-Roads}   & -0.021       & 0.271         &                &               &                &   \\   
+                              & (0.191)      & (0.193)       &                &               &                &   \\   
+   \text{FxS$*$Placa-Huella}  &              &               & -0.193$^{**}$  & -0.221$^{*}$  &                &   \\   
+                              &              &               & (0.092)        & (0.122)       &                &   \\   
+   \text{FxS$*$Public-Goods}  &              &               &                &               & 0.118          & -0.143\\   
+                              &              &               &                &               & (0.261)        & (0.268)\\   
+   Mean Dep. Var.             & 0.586        & 0.586         & 0.586          & 0.586         & 0.586          & 0.586\\  
+   N. Treated                 & 246          & 246           & 246            & 246           & 246            & 246\\  
+   N. Control                 & 526          & 526           & 526            & 526           & 526            & 526\\  
+   T.E. (Prov-Year)           & No           & Yes           & No             & Yes           & No             & Yes\\  
+   Period                     & 2011-2021    & 2011-2021     & 2011-2021      & 2011-2021     & 2011-2021      & 2011-2021\\  
+   \midrule
+   \emph{Fixed-effects}\\
+   id\_grid                   & Yes          & Yes           & Yes            & Yes           & Yes            & Yes\\  
+   year                       & Yes          & Yes           & Yes            & Yes           & Yes            & Yes\\  
+   \midrule
+   \emph{Fit statistics}\\
+   Observations               & 8,492        & 8,492         & 8,492          & 8,492         & 8,492          & 8,492\\  
+   \midrule \midrule
+   \multicolumn{7}{l}{\emph{Clustered (id\_grid) standard-errors in parentheses}}\\
+   \multicolumn{7}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+\end{tabular}
+\par\endgroup
+
+

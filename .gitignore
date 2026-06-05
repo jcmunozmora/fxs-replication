@@ -1,0 +1,20 @@
+# R
+.Rhistory
+.Rapp.history
+.RData
+.Rproj.user/
+*.Rproj
+
+# Private / non-anonymized data — never commit
+data/*_PRIVATE*.rds
+data/*_original*.rds
+
+# OS
+.DS_Store
+Thumbs.db
+
+# LaTeX artifacts
+*.aux
+*.log
+*.out
+*.synctex.gz

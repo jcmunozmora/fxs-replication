@@ -1,0 +1,5 @@
+# Original (non-anonymized) dataset — DO NOT COMMIT
+panel_grids_regressions_ORIGINAL_PRIVATE.rds
+
+# Intermediate anonymization artifacts
+panel_grids_regressions_anon.rds
