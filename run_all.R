@@ -58,6 +58,11 @@ run_script("code/06_roads/01_roads_main_table.R",        "Roads × Crops Table")
 run_script("code/06_roads/02_placa_huella_mechanism.R",  "Placa Huella × Mechanism")
 run_script("code/06_roads/03_roads_mechanism.R",         "Rural Roads × Mechanism")
 
+## ── 08 Robustness ────────────────────────────────────────────────────────────
+run_script("code/08_robustness/01_donut_test.R",     "Robustness: Donut Test (Ring2 controls)")
+run_script("code/08_robustness/02_conley_se.R",      "Robustness: Conley Spatial SE")
+run_script("code/08_robustness/03_leave_one_out.R",  "Robustness: Leave-One-Out (doubly-treated)")
+
 ## ── Summary ───────────────────────────────────────────────────────────────────
 cat(sprintf("\n%s\nREPLICATION SUMMARY\n%s\n", strrep("=", 60), strrep("=", 60)))
 for (nm in names(results)) {
